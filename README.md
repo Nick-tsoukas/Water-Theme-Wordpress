@@ -6,3 +6,7 @@ Trying to expand knowledge into php and content management systems.
     - wp php functions
     - custom theme development 
     - Wp API 
+
+### pagination
+    - under setting in wp dashboard 
+    - echo paginate_links();

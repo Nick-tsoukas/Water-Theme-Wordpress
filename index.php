@@ -14,11 +14,13 @@ get_header();
         the_post(); ?> 
           <!--  Add HTML HERE -->
           <h2><a class="post_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <p>Posted by <?php the_author_link() ?></p>
-          <p><?php the_date() ?></p>
+          <p>Posted by <?php the_author_link() ?> </p>
+          <p> on <?php the_date() ?> in <?php echo get_the_category_list(', ') ?></p>
           <P><?php the_excerpt() ?></P>
    <?php }
+        echo paginate_links();
     ?>
+
 </section>
 
 
