@@ -1,0 +1,255 @@
+/* 
+Theme Name: Water Theme
+Author: Nick
+Version: 1.0
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500;600;700&family=Krub:wght@400;500&display=swap');
+html, body {
+    height: 100vh;
+    font-family: 'Krub', sans-serif;   
+     padding: 0;
+    margin: 0;
+
+}
+h1, h2 ,h3, h4, h5, h6 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: normal;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FFF7;
+}
+header {
+    height: 80px;
+    color: #F7FFF7;
+    font-family: 'Catamaran', sans-serif;
+    display: flex;
+
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display : flex;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+.menu {
+    width: 100%;
+}
+
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+    font-weight: bold;
+    font-size: 1.2em;
+    flex-grow: 3;
+}
+
+.logo > h1 {
+    margin: 0;
+}
+
+.nav_links {
+    color: #F7FFF7;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;;
+    list-style: none;
+}
+
+ul > li {
+    margin-right: 3em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu > li {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+/* bread  */
+
+.bread {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cur_page_arrow {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* image gallery home page  */
+
+.home_image {
+    height: 250px;
+}
+
+.image_gallery {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    
+
+}
+
+.posts {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.posts_body {
+    
+}
+
+.home_body {
+    padding-left: 57px;
+    width: 100%;
+}
+
+.main_badge {
+    background:#3BCEAC;
+    height: 30px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em ;
+    font-weight: bold;
+    width: 200px;
+    height: 80px;
+}
+
+/* page sidebar and content  */
+
+
+.content_flex {
+    display: flex;
+}
+
+.content {
+    flex-grow: 5;
+}
+.pages {
+    flex-grow: .5;
+}
+.page_item {
+    background: #161925;
+    height: 30px;
+    color:#F7FFF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    width: 200px;
+    height: 80px;
+}
+
+/* content css */
+
+.content_post {
+    max-width: 300px;
+}
+
+.page_body {
+    flex-grow: 1;
+    padding-top: 5em;
+    padding-left: 3em;
+
+}
+
+/* footer css */
+
+.footer {
+    color: white;
+    display: flex;
+    background:#161925;
+    flex-grow: .2;
+    padding: 3em 3em;
+}
+
+.footer_item  {
+    height: 100%;
+}
+
+.footer_logo {
+    flex-grow: 3;
+}
+
+.footer_mid {
+    flex-grow: 1;
+}
+
+.footer_end {
+    flex-grow : 1;
+}
+
+.footer_links {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.link_box {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+}
+
+.link_box > li {
+    padding-top: .8em ;
+}
+
+/* helper classes */
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px ;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+.black {
+    background-color : #161925;
+}
+
+.green {
+    background-color : #3BCEAC;
+}
+
+.green_text {
+   color : #3BCEAC;
+}
+
+.white {
+    background-color : #F7FFF7
+}
+
+.navy {
+    background-color : #404E7C;
+}
+
+.grey {
+    background-color : #DAE0F2;
+}
