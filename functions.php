@@ -11,6 +11,7 @@ add_action('wp_enqueue_scripts', 'water_files');
 function water_features(){
     register_nav_menu('headerMenuLocation', 'Header Menu Location');
     add_theme_support('title-tag');
+    add_theme_support( 'post-thumbnails' );
 }
 
 add_action('after_setup_theme', 'water_features');

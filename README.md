@@ -10,3 +10,6 @@ Trying to expand knowledge into php and content management systems.
 ### pagination
     - under setting in wp dashboard 
     - echo paginate_links();
+
+## currently working on 
+    - Custom Query in wordpress

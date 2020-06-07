@@ -4,10 +4,17 @@ get_header();
 <!-- later goal to add scroll magic -->
 <!-- need header title and then think of a layout -->
 
-<!-- currently working on custom queries -->
-
 <section>
-    <h1>Hero Image</h1>
+  <h1>
+      <?php 
+      the_archive_title();
+      ?>
+  </h1>
+  <h3>
+      <?php 
+      the_archive_description();
+      ?>
+  </h3>
 </section>
 
 <section>
