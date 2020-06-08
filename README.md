@@ -13,3 +13,4 @@ Trying to expand knowledge into php and content management systems.
 
 ## currently working on 
     - Custom Query in wordpress
+    - Know WP_Query object ... has lots of methods for querying the DB

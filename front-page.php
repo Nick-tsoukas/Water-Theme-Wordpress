@@ -16,6 +16,7 @@
 
         ? how to loop through a collection php
             - while loop while(){}
+        wordpress comes with WP_Query() function/class 
 
  -->
 <!-- loop through posts using wp functions -->
@@ -24,11 +25,13 @@
 
     <?php
     // get header function 
-    
-    //  loop through all posts
-         while ( have_posts() ) {
-    // What does the_post function do 
-        the_post(); 
+    // name a query to get two latest posts 
+        $homepagePosts = new WP_Query(array(
+            'posts_per_page' => 2
+        ));
+
+         while ( $homepagePosts->have_posts() ) {
+        $homepagePosts->the_post(); 
     ?>
     <section class="home_body">
         <div>
@@ -36,7 +39,7 @@
                 </a></h2>
         </div>
         <div class="content_post">
-            <?php the_content();?>
+          <?php the_title(); ?>
         </div>
     </section>
 
