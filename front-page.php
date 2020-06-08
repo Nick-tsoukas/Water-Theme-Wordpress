@@ -40,11 +40,16 @@
         </div>
         <div class="content_post">
           <?php the_title(); ?>
+          <p>
+              <?php 
+                echo wp_trim_words(the_content(), 18)
+              ?>
+          </p>
         </div>
     </section>
 
-
-    <?php }
+            <!-- resets to default query ... good habit after custom query -->
+    <?php } wp_reset_postdata();
     ?>
 </section>
 <?php get_footer(); ?>

@@ -3,6 +3,9 @@ Theme Name: Water Theme
 Author: Nick
 Version: 1.0
  */
+
+
+ /* need to learn how to creete multiple css files in custom wordpress themes ... in other words link the css files it may be gulp that does this for you. You can check the settings file to take a look */
  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500;600;700&family=Krub:wght@400;500&display=swap');
 html, body {
     height: 100vh;
